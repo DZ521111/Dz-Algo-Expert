@@ -2,6 +2,7 @@
 Author : Dhruv B Kakadiya
 
 '''
+# O(nlog(n)) time | O(1) space
 
 def twoNumberSum(array, targetSum):
     # Write your code here.
