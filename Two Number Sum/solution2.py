@@ -2,7 +2,7 @@
 Author : Dhruv B Kakadiya
 
 '''
-
+# O(n) time | O(n) space
 
 def twoNumberSum(array, targetSum):
     # Write your code here.
