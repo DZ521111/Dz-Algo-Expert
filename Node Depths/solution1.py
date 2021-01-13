@@ -6,17 +6,18 @@ Author : Dhruv B Kakadiya
 
 def nodeDepths(root):
     # Write your code here.
-	depthSums = 0
+    depthSums = 0
     memoryNodes = [{"node": root, "depth": 0}]
-	while (len(memoryNodes) > 0):
-		nodes = memoryNodes.pop()
-		currNode, depth = nodes["node"], nodes["depth"]
-		if (currNode is None):
-			continue
-		depthSums += depth
-		memoryNodes.append({"node": currNode.left, "depth": depth + 1})
-		memoryNodes.append({"node": currNode.right, "depth": depth + 1})
-	return depthSums
+    while (len(memoryNodes) > 0):
+        nodes = memoryNodes.pop()
+        currNode, depth = nodes["node"], nodes["depth"]
+        if (currNode is None):
+            continue
+        depthSums += depth
+        memoryNodes.append({"node": currNode.left, "depth": depth + 1})
+        memoryNodes.append({"node": currNode.right, "depth": depth + 1})
+    return depthSums
+
 
 # This is the class of the input binary tree.
 class BinaryTree:
@@ -24,4 +25,5 @@ class BinaryTree:
         self.value = value
         self.left = None
         self.right = None
+
 
