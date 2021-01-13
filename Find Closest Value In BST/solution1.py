@@ -2,7 +2,7 @@
 Author : Dhruv B Kakadiya
 
 '''
-# O(log(n)) time | O(nlog(n)) space | Reccursive
+# O(log(n)) time | O(log(n)) space | Reccursive
 
 def findClosestValueInBst(tree, target):
 	return findClosestHelper(tree, target, tree.value)
