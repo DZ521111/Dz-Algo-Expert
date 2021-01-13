@@ -2,7 +2,7 @@
 Author : Dhruv B Kakadiya
 
 '''
-# O(nlog(n)) time | O(1) space | iterative
+# O(log(n)) time | O(1) space | iterative
 
 def findClosestValueInBst(tree, target):
     # Write your code here.
