@@ -1,3 +1,8 @@
+'''
+Author : Dhruv B Kakadiya
+
+'''
+
 def isValidSubsequence(array, sequence):
     # Write your code here.
 	ind, flag = 0, False
