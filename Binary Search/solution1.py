@@ -1,3 +1,7 @@
+'''
+Author : Dhruv B Kakadiya
+
+'''
 def binarySearch(array, target):
     # Write your code here.
 	front, rear = 0, len(array)
